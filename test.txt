@@ -1,2 +1,5 @@
 hôm  nay em đã hoàn thành cài đặt môi trường và tìm hiểu các cơ bản của js
-
+-Cài đặt thành công Ubuntu và chạy thử file js thành công trên vscode
+-Hiểu về nguyên nhân Floating Point
+-Biết cách so sánh Object với nhau
+-Tìm hiểu về các loại vòng for
