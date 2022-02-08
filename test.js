@@ -49,7 +49,7 @@ function getExecutionTime(title, callback) {
     const end = Date.now();
     return end - start;
   }
-  const n = 300000;
+  const n = 700000;
   const a = Array.from({ length: n }, (_, i) => i + 1);
   let sum, j;
   console.log(
@@ -77,13 +77,13 @@ function getExecutionTime(title, callback) {
     })
   );
   console.log(
-    getExecutionTime("For each caculating...", () => {
+    getExecutionTime("For each caculating", () => {
       sum = 0;
       a.forEach((v) => (sum += v));
     })
   );
   console.log(
-    getExecutionTime("While loop caculating...", () => {
+    getExecutionTime("While loop caculating", () => {
       sum = 0;
       j = 0;
       while (j < n) {
@@ -92,7 +92,7 @@ function getExecutionTime(title, callback) {
     })
   );
   console.log(
-    getExecutionTime("Do while loop caculating...", () => {
+    getExecutionTime("Do while loop caculating", () => {
       sum = 0;
       j = 0;
       do {
